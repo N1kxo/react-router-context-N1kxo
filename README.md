@@ -1,70 +1,52 @@
-# Getting Started with Create React App
+# Desarrollo de Aplicaciones Web
+## Nicolas Esteban Muñoz Sendoya
+### Universidad de La Sabana
+#### 2024 - I
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Router Seguro con React.js
 
-## Available Scripts
+### Objetivo
+Crear un router seguro utilizando React.js, React Context y localStorage. Permitir que el usuario con correo "admin@admin.com" y clave "admin" pueda acceder a todas las páginas, mientras que los usuarios no logeados o que intenten acceder a páginas prohibidas sean redirigidos al login. Las páginas del sistema serán: login, home, overview y contact.
 
-In the project directory, you can run:
+### Funcionalidades
+- Login: Permite al usuario ingresar con correo y contraseña.
+- Home: Muestra el nombre "Home" y presenta un menú de navegación (usted decide como implementar el logout)
+- Overview: Muestra el nombre "Overview" y presenta un menú de navegación (usted decide como implementar el logout)
+- Contact: Muestra el nombre "Contact" y presenta un menú de navegación (usted decide como implementar el logout)
 
-### `npm start`
+### Requisitos
+- El trabajo debe ser entregado en los grupos del proyecto final.
+- La entrega máxima es el 6 de mayo a las 6:55 am.
+- Se debe utilizar React Context; si se utiliza Redux u otra herramienta, habrá una penalización de **1 unidad**.
+- Lea bien la actividad y asegúrese de seguir las instrucciones presentadas en este documento.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+### Páginas
+1. **Login (`/login`)**
+   - Desarrollar la página de login para ingresar con correo y contraseña.
+   - Almacenar la sesión en localStorage para persistir el login.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+2. **Home (`/`)**
+   - Mostrar un mensaje de bienvenida.
+   - Incluir un menú de navegación para acceder a las otras páginas.
 
-### `npm test`
+3. **Overview (`/overview`)**
+   - Mostrar información general del sistema.
+   - Incluir un menú de navegación para acceder a las otras páginas.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+4. **Contact (`/contact`)**
+   - Mostrar un formulario de contacto.
+   - Incluir un menú de navegación para acceder a las otras páginas.
 
-### `npm run build`
+### Evaluación
+- Navegación del usuario autenticado: 1.5 puntos.
+- Protección de rutas: 1.5 puntos.
+- Uso correcto del contexto: 1 punto.
+- Uso de localStorage: 1 punto.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+### Importante
+- Si la tarea no está desplegada, no será calificada.
+- No se calificarán tareas tardías.
+- Si el repositorio no se marca, se obtendrá una calificación de 0.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+**¡Buena suerte!**
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
